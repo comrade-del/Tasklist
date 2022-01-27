@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task List </title>
+    <link rel="stylesheet" href="task.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <h1 id='welcome'>( ﾉ ﾟｰﾟ)ﾉ</h1>
+    <div class="container">
+      <p>
+        <label for="new-task">Type in box below to add stuff</label><input id="new-task" type="text"><button>+</button>
+      </p>  
+        <h3>Here's your list ( ﾟдﾟ)つ</h3>
+        <ul id="incomplete-tasks"></ul>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="task.js"></script>
+
+  </body>
+</html>
